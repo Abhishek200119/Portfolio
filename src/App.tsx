@@ -627,6 +627,19 @@ function App() {
     <div className="grid lg:grid-cols-3 gap-16 items-center">
 
      {/* Image */}
+      <a
+
+        href="https://matcha-project-delta.vercel.app/"
+      
+        target="_blank"
+      
+        rel="noopener noreferrer"
+      
+        aria-label="View E-Commerce WebSite"
+      
+        className="order-1 lg:order-3 block"
+      
+      >
 
       <motion.div
         whileHover={{
@@ -642,6 +655,7 @@ function App() {
           draggable={false}
         />
       </motion.div>
+      </a>
 
       {/* Number */}
 
@@ -721,6 +735,18 @@ function App() {
 
       {/* Center Image */}
 
+      <a
+          href="https://saas-project-seven-lake.vercel.app/"
+        
+          target="_blank"
+        
+          rel="noopener noreferrer"
+        
+          aria-label="View Inventory Mangement App"
+        
+          className="order-1 lg:order-3 block"
+        
+        >
       <motion.div
         whileHover={{ scale: 1.03 }}
         transition={{ duration: 0.4 }}
