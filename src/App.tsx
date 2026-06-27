@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 
 // Assets
@@ -9,8 +8,7 @@ import P2Image from "./assets/p2.png";
 import P3Image from "./assets/p3.png";
 import P5Image from "./assets/p5.png";
 import P6Image from "./assets/p6.png";
-// Animation
-import { TypeAnimation } from "react-type-animation";
+import P7Image from "./assets/p7.png";
 
 // React Icons (Font Awesome)
 import {
@@ -19,13 +17,9 @@ import {
   FaJsSquare,
   FaReact,
   FaFigma,
-  FaGitAlt,
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
-
-import { FaXTwitter } from "react-icons/fa6";
-
 // Simple Icons
 import {
   SiTypescript,
@@ -604,15 +598,14 @@ function App() {
 
  {/* ================= PROJECT 01 ================= */}
 
-
-<motion.section
-  id="projects"
-  initial={{ opacity: 0, y: 80 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true }}
-  transition={{ duration: 0.8 }}
-  className="py-24 border-t border-gray-200"
->
+    <motion.section
+      id="projects"
+      initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8 }}
+      className="py-24 border-t border-gray-200"
+    >
   <div className="max-w-7xl mx-auto px-8">
 
     {/* Heading */}
@@ -635,20 +628,20 @@ function App() {
 
      {/* Image */}
 
-<motion.div
-  whileHover={{
-    scale: 1.04,
-  }}
-  transition={{ duration: 0.4 }}
-  className="overflow-hidden rounded-lg"
->
-  <img
-    src={P1Image}
-    alt="Project 01"
-    className="w-full h-[320px] object-cover grayscale hover:grayscale-0 transition duration-700"
-    draggable={false}
-  />
-</motion.div>
+      <motion.div
+        whileHover={{
+          scale: 1.04,
+        }}
+        transition={{ duration: 0.4 }}
+        className="overflow-hidden rounded-lg"
+      >
+        <img
+          src={P1Image}
+          alt="Project 01"
+          className="w-full h-[320px] object-cover grayscale hover:grayscale-0 transition duration-700"
+          draggable={false}
+        />
+      </motion.div>
 
       {/* Number */}
 
@@ -910,17 +903,22 @@ function App() {
         </p>
 
         <h2 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-black uppercase leading-tight">
-          Mobile
+          Real-Estate
           <br />
-          App Design
+          Web Design
         </h2>
 
-        <p className="mt-6 text-gray-600 leading-8 text-base sm:text-lg">
-          End-to-end airline mobile application covering
-          onboarding, flight booking, live flight updates,
-          and airport navigation with a focus on usability
-          and seamless travel experiences.
-        </p>
+       <p className="mt-6 text-gray-600 leading-8 text-base sm:text-lg">
+
+            A modern React-based Real Estate website designed to showcase my UI/UX
+
+            design capabilities and frontend development skills. Built with React,
+
+            Tailwind CSS, and responsive design principles to deliver a clean,
+
+            interactive, and visually engaging user experience.
+
+          </p>
 
       </div>
 
@@ -947,31 +945,36 @@ function App() {
       </div>
 
       {/* Image */}
-
-      <motion.div
-        whileHover={{ scale: 1.03 }}
-        transition={{ duration: 0.4 }}
-        className="overflow-hidden rounded-xl order-1 lg:order-3"
+      <a
+        href="https://real-estate-platform-six-ruby.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="View Real Estate Project"
+        className="order-1 lg:order-3 block"
       >
-
-        <img
-          src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
-          alt="Mobile App Design"
-          className="
-            w-full
-            h-[240px]
-            sm:h-[320px]
-            md:h-[380px]
-            lg:h-[420px]
-            object-cover
-            grayscale
-            hover:grayscale-0
-            transition
-            duration-700
-          "
-        />
-
-      </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.03 }}
+          transition={{ duration: 0.4 }}
+          className="overflow-hidden rounded-xl cursor-pointer"
+        >
+          <img
+            src={P7Image}
+            alt="Real Estate Website"
+            className="
+              w-full
+              h-[240px]
+              sm:h-[320px]
+              md:h-[380px]
+              lg:h-[420px]
+              object-cover
+              grayscale
+              hover:grayscale-0
+              transition
+              duration-700
+            "
+          />
+        </motion.div>
+      </a>
 
     </div>
 
@@ -1006,13 +1009,13 @@ function App() {
         </h2>
 
         <motion.a
-  href="https://www.figma.com/proto/AeEdcfCe7xdUktQa6gIvUP/AirConnect?t=WYmjeKo63F5Wb3Wd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=4-637"
-  target="_blank"
-  rel="noopener noreferrer"
-  whileHover={{ scale: 1.03 }}
-  transition={{ duration: 0.4 }}
-  className="group mt-8 lg:mt-10 block overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer"
->
+          href="https://www.figma.com/proto/AeEdcfCe7xdUktQa6gIvUP/AirConnect?t=WYmjeKo63F5Wb3Wd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=4-637"
+          target="_blank"
+          rel="noopener noreferrer"
+          whileHover={{ scale: 1.03 }}
+          transition={{ duration: 0.4 }}
+          className="group mt-8 lg:mt-10 block overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer"
+        >
 
   <img
     src={P5Image}
