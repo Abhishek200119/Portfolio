@@ -770,7 +770,7 @@ function App() {
           "
         />
       </motion.div>
-
+      </a>
       {/* Right */}
 
       <div className="flex justify-center order-3">
