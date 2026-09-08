@@ -411,7 +411,7 @@ function App() {
             </p>
 
             <h3 className="text-3xl font-black mt-3">
-              Product Designer & UI Designer
+              Frontend Developer & UI Designer
             </h3>
 
             <h4 className="text-lg text-gray-500 mt-2">
