@@ -414,10 +414,10 @@ function App() {
 
             <p className="mt-6 text-gray-600 leading-8">
 
-              Designed premium product packaging, marketing creatives,
-              social media assets, and responsive web interfaces.
-              Collaborated closely with developers and marketing teams
-              to deliver high-quality digital experiences.
+              Working as a Full Frontend Developer, responsible for developing and maintaining responsive web interfaces and 
+              managing the company website. Collaborating with developers, marketing, and business teams to deliver high-quality 
+              digital experiences. Also involved in managing the company’s supply chain operations and implementing digital solutions 
+              to improve workflow, efficiency, and overall business processes.
 
             </p>
 
